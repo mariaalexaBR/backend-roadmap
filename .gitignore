@@ -1,0 +1,23 @@
+# Sistema operativo / editores
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+.obsidian/workspace*
+
+# Dependencias y builds
+node_modules/
+bin/
+obj/
+dist/
+build/
+__pycache__/
+.venv/
+
+# Secretos
+.env
+*.env
+!.env.example
+
+# Archivos pesados (van en Drive)
+*.pdf
