@@ -2,7 +2,21 @@
 
 API real, pequeña pero completa, donde aplico lo aprendido.
 
-**Stack:** _por definir_ (lenguaje, framework, base de datos)
+## Stack
+| Capa | Tecnología |
+|------|------------|
+| Lenguaje | TypeScript (`strict: true`) |
+| Runtime | Node.js LTS |
+| Framework | NestJS |
+| Base de datos | PostgreSQL |
+| ORM y migraciones | Prisma |
+| Validación | class-validator + class-transformer |
+| Autenticación | JWT + Passport + guards por roles |
+| Pruebas | Jest + Supertest + Testcontainers |
+| Documentación | Swagger (`@nestjs/swagger`) |
+| Infraestructura | Docker + docker compose + GitHub Actions |
+
+Plan de avance semana por semana: [../plan.md](../plan.md).
 
 ## Dominio
 - Productos

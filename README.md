@@ -24,12 +24,18 @@ Mi ruta de estudio para retomar el desarrollo backend: teoría, ejercicios y un 
 | 09 | Operación y sistemas | [09-operacion](09-operacion/) |
 | 10 | Trabajo con IA | [10-trabajo-con-ia](10-trabajo-con-ia/) |
 
+**Stack:** TypeScript + Node.js + NestJS + PostgreSQL + Prisma
+
+**Plan:** [plan.md](plan.md) — 12 semanas con ejercicios y avances del proyecto.
+
 Otros: [recursos.md](recursos.md) · [diario.md](diario.md) · [plantillas](plantillas/)
 
 ## Progreso
 
 ### 01 · Fundamentos
-- [ ] Lenguaje principal a fondo (tipos, errores, async, memoria)
+- [ ] TypeScript: tipos, interfaces, genéricos, clases, `strict`
+- [ ] Async/await, Promesas y manejo de errores
+- [ ] Node.js: event loop y módulos
 - [ ] Estructuras de datos y Big O
 - [ ] HTTP: métodos, códigos de estado, headers, CORS, caché
 - [ ] Git: ramas, merge vs rebase, conflictos
@@ -62,6 +68,8 @@ Otros: [recursos.md](recursos.md) · [diario.md](diario.md) · [plantillas](plan
 - [ ] Specification
 
 ### 04 · Arquitectura
+- [ ] NestJS: módulos, controladores, providers e inyección de dependencias
+- [ ] NestJS: pipes, filtros de excepciones, guards e interceptores
 - [ ] Arquitectura en capas
 - [ ] Clean Architecture / Hexagonal
 - [ ] DDD básico (entidades, value objects, agregados, bounded contexts)
@@ -74,6 +82,7 @@ Otros: [recursos.md](recursos.md) · [diario.md](diario.md) · [plantillas](plan
 - [ ] Índices y EXPLAIN
 - [ ] Normalización
 - [ ] Transacciones, ACID y niveles de aislamiento
+- [ ] Prisma: schema, cliente y migraciones
 - [ ] Problema N+1 con ORMs
 - [ ] Migraciones
 - [ ] NoSQL y Redis
